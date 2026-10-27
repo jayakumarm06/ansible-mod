@@ -13,5 +13,5 @@
     - name: print the vars againa
       vars:
         property: "10acres"
-        debug:
-          msg: "Hi, I got {{ property }} from my father"
+      debug:
+        msg: "Hi, I got {{ property }} from my father"
