@@ -1,0 +1,22 @@
+- name: demo on perefrence variables(tasks,file,inventory,prompt,cmd)
+  hosts: local
+  connection: local
+
+  vars:
+    course: "ansible from global"
+
+  vars_prompt:
+    - name: course
+      prompt: Please enter your course
+      private: false
+
+  vars_files:
+    - course.yaml
+
+  tasks:
+    - name: "prints the perfernce based variables"
+      vars:
+        course: "ansible from tasks"
+      debug:
+        msg: "Hi, Iam Learning {{ course }}"
+#

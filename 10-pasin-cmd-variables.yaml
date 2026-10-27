@@ -5,3 +5,4 @@
     - name: print greeting
       debug:
         msg: "Hello {{ person_name }}"
+# ansible-playbook -i inventory.ini 10-pasin-cmd-variables.yaml -e "person_name=jai"
