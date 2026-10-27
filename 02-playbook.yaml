@@ -1,11 +1,3 @@
-# - name: Demon on ping
-#   hosts: local
-#   connection: local
-#   tasks:
-#     - name: print hello world
-#       ansible.builtin.debug:
-
-## 2nd
 - name: Demon on ping
   hosts: local
   connection: local
