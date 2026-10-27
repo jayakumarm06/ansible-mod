@@ -1,0 +1,6 @@
+- name: variables from inventory
+  hosts: frontend
+  tasks:
+    - name: Print the variables
+      debug:
+        msg: "Hi, Iam learning {{ course }} from {{ trainer }},duration is {{ duration }}"
