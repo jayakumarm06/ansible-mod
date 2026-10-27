@@ -1,0 +1,18 @@
+<student>
+    <name>jay</name>
+    <age>7</age>
+    <dob>01-10-100</dob>
+    <addresses>
+        <address type="permenant">
+            <dorno>4152</dorno>
+            <street>rajaeajewsaripet</street>
+            <city>vijayawada</city>
+        </address>
+
+        <address type="temperory">
+            <dorno>4152</dorno>
+            <street>rajaeajewsaripet</street>
+            <city>vijayawada</city>
+        </address>
+    </addresses>
+</student>

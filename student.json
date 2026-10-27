@@ -1,0 +1,21 @@
+{
+    "name": "jai",
+    "age": "39",
+    "dob": "10-10-42",
+    "addresses": [
+        {
+            "type": "permeanant",
+            "dorno": "256-8",
+            "city": "vijayawada"
+        },
+        {
+            "type": "temporary",
+            "dorno": "256-8",
+            "city": "vijayawada"
+        }
+    ],
+    "skills": {
+        "Os": "linux",
+        "IDE": "Vscode"
+    }
+}

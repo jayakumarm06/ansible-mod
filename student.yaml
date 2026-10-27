@@ -1,0 +1,19 @@
+# - is the list
+
+- name: "jai"
+  age: 5
+  dob: 10-10-10
+  # - is the list
+- addresses:
+    - type: permenant
+      dor: 20-45
+      street: raja rajeswarripet
+      city: vijayawada
+    - type: temperary
+      dor: 20-45
+      street: raja rajeswarripet
+      city: vijayawada
+
+  skills:
+    Os: Linux
+    IDe: VScode
