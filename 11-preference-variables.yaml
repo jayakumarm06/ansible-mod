@@ -28,4 +28,4 @@
 #3.file (do comment on vars_files and do comment .yaml and run whose comes next )
 #4.prompt (do comment on vars_prompt and run whose comes next)
 #5.vars (do comment on global level vars  and run whose comes next)
-#6.
+#6.invemtory (last one is inventory)
