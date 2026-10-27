@@ -1,5 +1,6 @@
 - name: nginx and start nignx
   hosts: frontend
+  beacome: yes
   tasks:
     - name: install nginx
       package:
