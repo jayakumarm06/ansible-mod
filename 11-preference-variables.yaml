@@ -15,8 +15,14 @@
 
   tasks:
     - name: "prints the perfernce based variables"
-      vars:
-        course: "ansible from tasks"
+      # vars:
+      #   course: "ansible from tasks"
       debug:
         msg: "Hi, Iam Learning {{ course }}"
 #
+# perfernce
+#1.cmd (ansible-playbook -i inventory.ini 11-preference-variables.yaml -e "course='ansible from cmd'")
+# run this command after first step-1
+# ansible-playbook -i inventory.ini 11-preference-variables.yaml
+#2.task (do comment on task and run whose comes next)
+#3.
