@@ -5,10 +5,10 @@
   vars:
     course: "ansible from global"
 
-  vars_prompt:
-    - name: course
-      prompt: Please enter your course
-      private: false
+  # vars_prompt:
+  #   - name: course
+  #     prompt: Please enter your course
+  #     private: false
 
   # vars_files:
   #   - course.yaml
@@ -26,4 +26,4 @@
 # ansible-playbook -i inventory.ini 11-preference-variables.yaml
 #2.task (do comment on task and run whose comes next)
 #3.file (do comment on vars_files and run whose comes next)
-#4.
+#4.prompt (do comment on vars_prompt and run whose comes next)
