@@ -10,8 +10,8 @@
       prompt: Please enter your course
       private: false
 
-  vars_files:
-    - course.yaml
+  # vars_files:
+  #   - course.yaml
 
   tasks:
     - name: "prints the perfernce based variables"
@@ -25,4 +25,5 @@
 # run this command after first step-1
 # ansible-playbook -i inventory.ini 11-preference-variables.yaml
 #2.task (do comment on task and run whose comes next)
-#3.
+#3.file (do comment on vars_files and run whose comes next)
+#4.
