@@ -21,3 +21,7 @@
     - name: convert list to string
       debug:
         msg: "Full name: {{ names | join(' ') }}"
+
+    - name: convert the lower case
+      debug:
+        msg: "Topic: {{ topic | lower }}"
