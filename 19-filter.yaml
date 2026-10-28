@@ -9,11 +9,11 @@
       - menda
     topic: ANSIBLE
     duration: "4"
-    tasks:
-      - name: print the name
-        debug:
-          msg: "Hi, {{ person_name | default('deephti') }}"
+  tasks:
+    - name: print the name
+      debug:
+        msg: "Hi, {{ person_name | default('deephti') }}"
 
-      - name: convert the string to list
-        debug:
-          msg: "Topics are: {{ topics | split(',') }}"
+    - name: convert the string to list
+      debug:
+        msg: "Topics are: {{ topics | split(',') }}"
