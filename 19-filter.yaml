@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars:
-    topics: Linux shell ansbile terraform docker
+    topics: "Linux shell ansbile terraform docker"
     names:
       - jai
       - kumar
@@ -16,4 +16,4 @@
 
     - name: convert the string to list
       debug:
-        msg: "Topics are: {{ topics | split(',') }}"
+        msg: "Topics are: {{ topics | split(',') | trim }}"
