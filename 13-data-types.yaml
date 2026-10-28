@@ -1,0 +1,26 @@
+- name: course information
+  hosts: local
+  connection: local
+  vars:
+    course: "AIOP with DevSecOPs on AWS"
+    duration_in_hrs: 150
+    is_live_session: true
+    topics:
+      - Linux
+      - shell
+      - Ansible
+      - Terraform
+    more_details:
+      trainer: jai
+      months: 4
+    exact_duration_in_hrs: 4.5
+  tasks:
+    - name: Print info and type
+      debug:
+        msg: |
+          name: {{ course }} : {{ course | type_debug }}
+          duration: {{ duration_in_hrs }} : {{ duration_in_hrs | type_debug }}
+          is_live: {{ is_live_session }} : {{ is_live_session | type_debug }}
+          topics are : {{ topics }} : {{ topics | type_debug }}
+          more_details: {{ more_details }} : {{ more_details | type_debug }}
+          exact_duration: {{ exact_duration_in_hrs }} : {{ exact_duration_in_hrs | type_debug }}
