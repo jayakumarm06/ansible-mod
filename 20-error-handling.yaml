@@ -6,3 +6,9 @@
   tasks:
     - name: Check roboshop user exist or not
       command: id roboshop # Linux command, when there is no ansible module exist
+      register: user_output #what is the case her commnad user_id=$(id roboshop) actually we get the value in variable user_id same like that register
+      ignore_errors: true
+
+    - name: print the ouput
+      debug:
+        msg: "{{ user_output }}"
