@@ -16,4 +16,4 @@
 
     - name: convert the string to list
       debug:
-        msg: "Topics are: {{ topics | split(',') | trim }}"
+        msg: "Topics are: {{ topics | split(' ') | trim }}"
