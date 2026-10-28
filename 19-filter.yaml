@@ -25,3 +25,7 @@
     - name: convert the lower case
       debug:
         msg: "Topic: {{ topic | lower }}"
+
+    - name: convert to string to int
+      debug:
+        msg: "Duration: {{ duration | int }}"
