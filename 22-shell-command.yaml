@@ -4,9 +4,9 @@
   tasks:
     - name: test the command
       # command: cat /etc/password | grep roboshop
-      shell: cat /etc/passwd | grep ec2-user
-      register: ec2_user_output
+      shell: cat /etc/passwd | grep roboshop
+      register: roboshop_output
 
     - name: print the output
       debug:
-        msg: "{{ ec2_user_output }}"
+        msg: "{{ roboshop_output }}"
