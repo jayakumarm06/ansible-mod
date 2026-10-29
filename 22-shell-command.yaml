@@ -3,4 +3,10 @@
   connection: local
   tasks:
     - name: test the command
-      command: cat /etc/password | grep roboshop
+      # command: cat /etc/password | grep roboshop
+      shell: cat /etc/password | grep roboshop
+      register: roboshop_output
+
+    - name: print the output
+      debug:
+        msg: "{{ roboshop_output }}"
