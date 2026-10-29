@@ -10,3 +10,6 @@
     - name: print the output
       debug:
         msg: "{{ roboshop_output }}"
+
+    - name: get the files
+      command: ls -la > /tmp/files.txt
